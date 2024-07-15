@@ -1,0 +1,23 @@
+HTML es un standar w3c
+HTML es un lenguaje de etiquetas.
+
+Caracteristicas:
+lenguaje de marcado.
+el lenguaje esta construido por texto y etiquetas.
+No es sensible a minusculas y mayusculas
+HTML4 problemas. hay muchas caracteristicas comunes.
+
+HTMML5 
+	. Nuevas caracteristicas
+	- son etiquetas semanticas nav,header, footer y article
+	- proporciona una forma estandarizada.
+	- incrementa Archivos de audio y video.
+	- web sql permite guardar una copia local de los datos de una aplicacion web.
+	- SEssionStorage: mantiene un area de almacenamiento para cada sesion. Al cerrar sesion se pierden los datos
+	- LocalStorage: mantiene un area de almacenamiento no dependiente de la sesion
+	- Web workers : su rendimiento se resiente cuando requiere una gran cantidad de datos.
+	. Geolocalizacion: define una api que permite a una aplicacion web accer a los datos de localizacion. La api accede a traves del objeto windows.navigator.geolocalizacion
+	  permite acceder a la ubicacion.
+Las etiquetas que no tienen etiqueta de cierre se denomina elementos vacios.
+
+Saberse etiquetas p ol li

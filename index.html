@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Este testo se visualiza en la pantalla</title>
+</head>
+<body>
+    <a name="Inicio"></a>
+    <h1>Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+    <p>Esto es un parrafo<pre>parrafo</pre></p>
+    <hr/>
+    Agrupamiento de Contenido
+Todos los elementos que pasamos a describir son elementos internos a <body>.
+<p>
+Define un párrafo.
+<p>Esto es un parrafo</p>
+<hr>
+Define una línea horizontal.
+Es un elemento vacío.
+<p>Primer parrafo antes de la etiqueta hr</p>
+<hr/>
+<p>Segundo parrafo despues de la etiqueta hr</p>
+<pre>
+Indica que su contenido está preformateado y que este formato debe ser preservado.
+<pre>
+body{
+color: red;
+}
+a {
+color:green;
+}
+</pre>
+<blockquote>
+Representa un contenido citado desde otra fuente.
+Atributos:
+- cite: url de la fuente.
+<blockquote cite="http:///w3c.org/html5...def-
+BLOCKQUOTE">
+<p> <strong>Nota.</strong> Recomendamos que las
+implementaciones de hojas de estilo proporcionen
+un mecanismo para insertar signos de puntuación
+de citas antes y después de una cita delimitada
+por un BLOCKQUOTE de un modo apropiado según el
+contexto del idioma actual y el grado de
+anidamiento de las citas.
+</p>
+</blockquote>
+<hr>
+<ol type="1" start="6"> 
+    <li>punto uno</li>
+    <li>punto dos</li>
+    <li>punto tres</li>
+    </ol>
+    <hr>
+    <ul type="circle">
+        <li>punto uno</li>
+        <li>punto dos</li>
+        <li>punto tres</li>
+        </ul>
+    <hr>
+    <dl>
+        <dt>Cafe</dt>
+        <dd>Bebida caliente de color negro</dd>
+        <dt>Leche</dt>
+        <dd>Bebida fría de color blanco</dd>
+    </dl>
+    <hr>
+    <div style="background-color: black;">
+    <h1>Elementos figure y figcaption</h1>
+    <figure>
+    <img src="imagenes/batman.png" alt="Casa1" style="width:25%">
+    <figcaption>
+    Fig.1 - Trulli, Puglia, Italy.
+    </figcaption>
+    </figure>
+    </div>
+    <hr>
+    <h3>Enlace externo</h3>
+    <a href="https://www.inap.es/">Pagina del INAP. En la misma pestaña.</a>
+    <br> 
+    <a href="https://www.inap.es/"target="_blank">Pagina del INAP. En otra pestaña</a>
+    <h3>Enlace hacia un correo</h3>
+    <a href="mailto:ggp2002es@gmail.com">Pinche en el enlace de correo</a>
+    <h3>Enlace interno a otra parte de la misma pagina</h3>
+    <a href="#Inicio">Ir al inicio</a>
+<br>
+<a href="ejemploAnclas.html#Inicio">Ir a la pagina de anclas inicio</a>
+<br>
+<a href="ejemploAnclas.html#Final">Ir a la pagina de anclas final</a>
+<hr>
+    <p>Parrafo con <em>texto enfatizado</em></p>
+<hr>
+<p>Parrafo con
+    <strong>texto importante</strong>
+    </p>
+<hr>
+<p><cite>El Quijote</cite> por Miguel de Cervantes.</p>
+<hr>
+<p>Frase motivacional:
+    <q cite="#">El esfuerzo no se negocia</q>
+</p>
+<hr>
+<p>
+    El <dfn>HTML</dfn> es un lenguaje de marcado para hipertextos.
+</p>
+<hr>
+<p>Estudio <abbr title="Hypertext Markup Language">HTML</abbr></p>
+<hr>
+<p>A final de año es <time datetime="2020-12-31"> Nochevieja</time>.</p>
+<hr>
+<h3>Fechas</h3>
+<time datetime="1992">año 1992</time>
+<time datetime="1985-09">septiembre 1985</time>
+<time datetime="2020-01-30">30 enero 2020</time>
+<time datetime="10-01">01 octubre</time>
+<time datetime="2003-W15">semana 15 2003</time>
+<hr>
+<h3>Fechas y horas:</h3>
+<time datetime="2001-09-11T08:00">11 septiembre 2001 8:00 am</time>
+<time datetime="2001-09-11 08:00">11 septiembre 2001 8:00 am</time>
+<time datetime="2001-09-11 08:30:45">incluye minutos y segundos</time>
+<time datetime="2001-09-11 q 08:30:45.687">incluye minutos, segundos y
+milisengundos</time>
+<hr>
+<h3>Periodos:</h3>
+<time datetime="P2D">duracion de 2 dias</time>
+<time datetime="PT15H10M">duración de 15 horas y 10 minutos</time>
+<hr>
+<h3>MArca el codigo de un programa</h3>
+<code> void main() { for(;;) { printf ("Hola Mundo!\n"); } }</code>
+<hr>
+<h3>Usando VAR</h3>
+<p>    La variable <var>contador</var> es igual a 0.</p>
+<hr>
+<h3>Usando samp</h3>
+<p>Salida del programa <samp>Hola Mundo</samp></p>
+<hr>
+<h3>KBD</h3>
+<p> Si está conforme escriba   <kbd>F1</kbd>.    Si no, pulse <kbd>ESC</kbd></p>
+<hr>
+<h3>Sub</h3>
+<p>Fórmula química agua:
+    H<sub>2</sub>O</p>
+    B 3 T 8 A P L I C A C I O N E S W E B - H T M L T A I
+    P A B L O A R E L L A N O www.theglobeformacion.com Página 32
+
+<hr>
+<h3>sup</h3>
+<p>Nota al pie <sup>2</sup></p>
+<hr>
+<h3>mark</h3>
+<p>Estudiar <mark>todos los dias</mark> aumenta las probabilidad de exito.</p>
+
+<hr>
+<h3>ruby</h3>
+<ruby>
+    漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+    字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+</ruby>
+<hr>
+<h3>bdo</h3>
+<p> cero(0) <bdo dir="rtl"> <em>uno(1) dos(2)</em> tres(3) cuatro(4) <em dir="ltr"> cinco(5) seis(6) </em> siete(7) ocho(8) </bdo> nueve(9)</p>
+
+<hr>
+<h3>Spam</h3>
+<div style="width:50%;border: 1px dotted blue;">
+<h4>Ejemplo de div y span </h4>
+<p>Esto es un párrafo dentro de un div,
+<span style="color: red;"> y esto un span
+dentro de un párrafo. </span>
+</p>
+</div>
+
+<hr>
+<h3></h3>
+
+<hr>
+<h3></h3>
+
+
+</body>
+</html>
