@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+
+<body>
+    <h1>Formularios de HTML</h1>
+    <form action="respuesta.html" method="post">
+        <label for="dni">Escriba u dni</label>
+        <input type="text" name="dni">
+    
+        <br>
+        <label for="nombre">Escriba su nombre: </label>
+        <input type="text" name="nombre" required>
+        <br>
+        <label for="apellido">Escriba su nombre: </label>
+        <input type="text" name="apellido" placeholder="Escriba su nombre">
+        <br>
+        <label for="contrasena">Escriba su contraseña: </label>
+        <input type="password" name="contrasena" required>
+        <br>
+        <label for="politicaSeguridad">Acepta nuestra politica de seguridad: </label>
+        <input type="checkbox" name="politicaSeguridad" required checked>
+        <br>
+        <label for="genero">Selecciona su genero </label>
+        <input type="radio" name="genero" value="Mujer">Mujer
+        <input type="radio" name="genero" value="Hombre">Hombre
+        <input type="radio" name="genero" value="otro">otro
+        <br>
+        <label for="genero">Selecciona su genero </label>
+        <input type="radio" name="genero2" value="Mujer">Mujer
+        <input type="radio" name="genero3" value="Hombre">Hombre
+        <input type="radio" name="genero4" value="otro">otro
+        
+        <br>
+        
+        <input type="submit" value="Enviar informacion"/>
+    </form>
+</body>
+
+</html>
