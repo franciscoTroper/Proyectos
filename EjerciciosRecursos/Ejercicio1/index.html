@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio1</title>
+    <h1>Formulario de contacto</h1>
+</head>
+<body>
+    <div>
+        <form action="" method="get">
+            <label for="nombre">Nombe</label>
+            <input type="text" name="nombre" placeholder="Juanito" required> 
+            <br>
+            <label for="contraseña"></label> Contraseña
+            <input type="password" name="contraseña" placeholder="1234@" required>
+            <br>
+            <label for="edad"></label>Edad
+            <input type="range" min="18" max="65" name="edad" placeholder="18-65" required>
+            <br>
+            <label for="numero">Numero</label>
+            <input type="number" min="-10" max="10" name="numero" placeholder="de -10 a 10" required>
+            <br>
+            <label for="telefono">Telefono</label>
+            <input type="tel" name="telefono" pattern="^\+\d{1,4}-\d{6,12}$" placeholder="Ejemplo: +34-123456789" / required>
+            <br>
+            <label for="telefono">E_mail</label>
+            <input type="email" name="telefono" pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$" placeholder=...@gmail.com / required>
+            <br>
+            <label for="sitioweb">Sitio web</label>
+            <input type="url" name="sitioweb" placeholder="Escribe la url" / required>
+            <br>
+            <label for="fechahora">Fecha</label>
+            <input type="date"  name="fechahora" required>
+            <br>
+            <label for="tiempo">Tiempo</label>
+            <input type="time" / required>
+            <br>
+            <label for="fechahora">Fecha y hora</label>
+            <input type="datetime-local"  name="fechahora" required>
+            <br>
+            <label for="mes">Mes</label>
+            <input type="month" pattern="[0-9]{2}" placeholder="--" required >
+            <!--<select name="mes" >
+                <option value="ene" selected>Enero</option>
+                <option value="feb">Febrero</option>
+                <option value="mar">Marzo</option>
+                <option value="abr">Abrir</option>
+                <option value="may">Mayo</option>
+                <option value="jun">Junio</option>
+                <option value="jul">Julio</option>
+                <option value="ago">Agosto</option>
+                <option value="sep">Septiembre</option>
+                <option value="oct">Octubre</option>
+                <option value="nov">Noviembre</option>
+                <option value="dic">Diciembre</option>
+            </select>-->
+            <br>
+            <label for="semana">Semana</label>
+            <input type="text" name="semana" pattern="[0-9]{4}-[0-9]{2}" placeholder="AAAA-WW" required>
+            <br>
+            <label for="color">Color</label>
+            <input type="color" name="color" >
+            <br>
+            <label for="modulos">Elige el modulo</label>
+            <input type="radio" name="modulos"> HTML
+            <input type="radio" name="modulos"> CSS
+            <input type="radio" name="modulos"> JS
+            <input type="radio" name="modulos">Framework
+            <br>
+            <label for="temaInteresantes">Elije tus temas favoritos</label>
+            <input type="checkbox" name="temaInteresantes"> POO 
+            <input type="checkbox" name="temaInteresantes">BBDD
+            <input type="checkbox" name="temaInteresantes">HTML
+            <input type="checkbox"  name="temaInteresantes">Sistema Operativo
+            <br>
+            <label for="faseFavorito"> Elije tu favorito</label>
+            <select name="faseFavorito">
+                <option value="opcion1">Seleccione una fase</option>
+                <option value="opcion2"> Análisis</option>
+                <option value="opcion3">Diseño</option>
+                <option value="opcion4">Programación</option>
+                <option value="opcion5">Pruebas</option>
+                <option value="opcion6">Despliegue</option>
+                <option value="opcion7">Mantenimiento.</option>
+                <option value="opcion8">Inicialmente, estará seleccionado la opción "Seleccione un tema"./option>
+            </select>
+            <br>
+            <br>
+            <label for="limpiar">Reset</label>
+            <input type="reset">
+            <br>
+            <label for="enviar">Enviar</label>
+            <input type="submit" name="enviar">
+        </form>
+
+    </div>
+</body>
+</html>
+
+<!-- 1) Cree una página web con las siguientes consideraciones:
+a) El título de la página debe ser Formulario de prueba de HTML5.
+b) El método de envío del formulario debe ser GET.
+c) El destino del envío del formulario debe ser "".
+2) Defina un formulario con los siguientes campos de información:
+a) Nombre: campo texto obligatorio, con autofoco, tamaño 30 y longitud máxima
+de 20.
+b) Contraseña: campo de tipo password con una longitud máxima de 8.
+c) Edad: campo de tipo range con valores permitidos entre 18 y 65.
+d) Número: campo de tipo number que limite la entrada a un valor entre -10 y
+10.
+e) Teléfono: campo de tipo tel.
+f) Correo electrónico: campo de tipo email obligatorio.
+g) URL: campo de tipo url que muestre la ayuda "Escribe la URL".
+h) Fecha: campo de tipo date.
+i) Tiempo: campo de tipo time.
+j) Fecha y hora: campo de tipo datetime.
+k) Mes: campo de tipo month.
+l) Semana: campo de tipo week.
+m) Color favorito: campo de tipo color.
+n) Modulo preferido: botones de radio para elegir
+i) HTML
+ii) CSS
+iii) JS
+iv) Framework
+v) por defecto HTML.
+o) Temas más interesantes: casillas de verificación para seleccionar los temas
+que han resultado más interesantes, entre POO, BBDD, HTML, Sistema
+Operativo, estando seleccionado inicialmente Sistema Operativo.
+p) Fase favorito: lista desplegable con los siguientes elementos:
+i) Seleccione una fase
+ii) Análisis
+iii) Diseño
+iv) Programación
+v) Pruebas
+vi) Despliegue
+vii) Mantenimiento.
+viii) Inicialmente, estará seleccionado la opción "Seleccione un tema".
+q) Observaciones, campo de tipo área de texto con 30 filas y 20 columnas.
+r) Un botón de reset etiquetado como LIMPIAR.
+s) Un botón de envío etiquetado como ENVIAR.
+NOTA: Todos los elementos del formulario deben tener los atributos id y name y
+un elemento de tipo label con contenido. -->
