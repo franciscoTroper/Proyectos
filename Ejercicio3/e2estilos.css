@@ -1,0 +1,25 @@
+/*
+
+
+*/
+.linea1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.linea2{
+    font-style: oblique;
+}
+.linea3{
+    font-weight: 800;
+}
+.linea4{
+    color: green;
+}
+.siguienteParrafo{
+    text-indent: 35%;
+    letter-spacing: 9px;
+    word-spacing: 10px;
+    line-height: 200%;
+    font-family: 'Tahoma';
+    font-size: 25px;
+    text-align: justify;
+}

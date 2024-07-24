@@ -1,0 +1,43 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: rgb(48, 3, 3);
+    margin-left: 1%;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: rgb(75, 3, 3);
+    text-align: center;
+}
+h2{
+    font-size: large;
+    color: brown;
+    /*margin-top: 3%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+    margin-left: 30%;
+    */
+   
+    margin: 2% 3% 4% 3%;
+    border: solid;
+    padding: 0.5%;
+}
+p{
+    margin: 1px;
+    padding: 1px;
+}
+.pregunta{
+    color: black;
+}
+.respuestas{
+    color: rgb(98, 153, 236);
+}
+#unico{
+    margin: 1px;
+    padding: 3px;
+    border: solid 1px orange;
+    font-style: italic;
+    background-color: black;
+    color: aliceblue;
+}

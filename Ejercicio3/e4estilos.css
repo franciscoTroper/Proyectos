@@ -1,0 +1,19 @@
+.frase1{
+    letter-spacing: normal;
+
+}
+.frase2{
+    
+    
+    letter-spacing: 4px;
+
+}
+.frase3{
+    letter-spacing: 0.25cm;
+}
+.parrafo1{
+    text-indent: 0.5em;
+}
+.parrafo2{
+    text-indent: 0.5in;
+}

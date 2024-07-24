@@ -1,0 +1,28 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: black;
+}
+h1{
+    font-size: xx-large;
+    
+    color: orange;
+}
+h2{
+    font-size: larger;
+    color: blueviolet;
+}
+.capitulo{
+    text-transform: capitalize;
+    text-indent: 1%;
+    
+}
+.subrayado{
+    text-decoration: underline;
+}
+.negrita{
+    font-weight: 800;
+}
+.parpadeo{
+    text-decoration: line-through;
+}
