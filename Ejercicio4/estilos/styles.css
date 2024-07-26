@@ -1,0 +1,70 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cajaGeneral{
+    display: flex;
+    background-color: rgba(216, 148, 0, 0.521);
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.caja1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    
+}
+img{
+    width: 100%;
+    height: auto;
+    
+}
+.caja2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    
+}
+article{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid;
+    border-color: black;
+}
+
+.menuArriba{
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+    font-size: larger;
+    
+}
+.styleLetrasMenuUp{
+    text-decoration: none;
+    color: rgb(178, 201, 50);
+}
+.styleLetrasMenuUp:hover{
+    color: rgb(214, 241, 62);
+}
+
+.styleLetrasMenuLeft{
+    text-decoration: none;
+    color: rgb(56, 59, 192);
+}
+.styleLetrasMenuLeft:hover{
+    color: rgb(111, 113, 196);
+}
+

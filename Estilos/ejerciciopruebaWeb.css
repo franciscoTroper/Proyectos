@@ -1,0 +1,7 @@
+.clase{
+    display: flex;
+    justify-content:space-between;
+    flex-direction:column;
+    align-items:safe;
+    flex-wrap: ;
+}
